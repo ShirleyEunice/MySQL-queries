@@ -227,7 +227,7 @@ group by major;
 /*45. Write an SQL query to find the students who have the same gpa as 'Shivansh Mahajan*/
 select * from student where gpa = (select gpa from student where first_name = 'Shivansh' and last_name='Mahajan');
 --------------------------------------------------------------------
-/*46. */
+
 
 
 
